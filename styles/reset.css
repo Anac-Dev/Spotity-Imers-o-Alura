@@ -1,0 +1,141 @@
+/* Reset de estilos para elementos HTML básicos */
+
+/* Zera as margens, preenchimentos e bordas para todos os elementos */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0; /* Zera as margens */
+  padding: 0; /* Zera o preenchimento */
+  border: 0; /* Zera as bordas */
+  font-size: 100%; /* Tamanho da fonte igual a 100% */
+  vertical-align: baseline; /* Alinhamento vertical na base */
+}
+
+/* Reset de display-role HTML5 para navegadores mais antigos */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; /* Define os elementos como blocos */
+}
+
+/* Ajustes adicionais */
+
+body {
+  line-height: 1; /* Altura da linha igual a 1 */
+  background: #000; /* Cor de fundo preta */
+  font-family: var(--font-dm-sans); /* Define a fonte para var(--font-dm-sans) */
+}
+
+ol,
+ul {
+  list-style: none; /* Remove os estilos de lista */
+}
+
+blockquote,
+q {
+  quotes: none; /* Remove as aspas */
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: ""; /* Remove o conteúdo antes e depois dos blocos de citação */
+  content: none;
+}
+
+table {
+  border-collapse: collapse; /* Colapso de borda de tabela */
+  border-spacing: 0; /* Espaçamento de borda de tabela igual a 0 */
+}
+
+button {
+  border: none; /* Remove as bordas dos botões */
+  cursor: pointer; /* Altera o cursor para o estilo padrão do ponteiro */
+}

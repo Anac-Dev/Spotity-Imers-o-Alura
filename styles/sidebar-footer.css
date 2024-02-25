@@ -1,0 +1,248 @@
+/*SIDEBAR FOOTER*/
+
+/* Define o estilo do corpo da página */
+body {
+    background-color: #000; /* Define a cor de fundo */
+    font-family: var(--font-dm-sans); /* Define a família da fonte */
+}
+
+/* Estilo da barra lateral */
+.sidebar {
+    position: fixed; /* Define a posição fixa */
+    top: 0; /* A partir do topo da janela */
+    left: 0; /* A partir da esquerda da janela */
+    bottom: 0; /* Até o final da janela */
+    padding: 12px; /* Espaçamento interno */
+    width: 300px; /* Largura */
+}
+
+/* Estilo da navegação na barra lateral */
+.sidebar__navigation {
+    background-color: #121212; /* Cor de fundo */
+    border-radius: 8px; /* Raio da borda */
+    padding: 16px 0 0 20px; /* Espaçamento interno */
+}
+
+/* Estilo do logotipo na barra lateral */
+.logo {
+    background: #121212; /* Cor de fundo */
+    display: flex; /* Display flexível para alinhamento */
+    border-radius: 8px; /* Raio da borda */
+    padding: 16px 0 0 16px; /* Espaçamento interno */
+}
+
+/* Estilo da imagem do logotipo na barra lateral */
+.sidebar__navigation .logo img {
+    width: 100px; /* Largura da imagem */
+}
+
+/* Estilo da lista de navegação na barra lateral */
+.sidebar nav ul {
+    margin-top: 20px; /* Margem superior */
+    padding: 0 20px 10px 20px; /* Espaçamento interno */
+    list-style: none; /* Remove marcadores de lista */
+}
+
+/* Estilo dos itens da lista na barra lateral */
+.sidebar ul li {
+    padding: 10px 0; /* Espaçamento interno */
+}
+
+/* Estilo dos links na barra lateral */
+.sidebar nav ul li a {
+    color: #b3b3b3; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 14px; /* Tamanho da fonte */
+}
+
+/* Estilo da seção de biblioteca */
+.library {
+    background-color: #121212; /* Cor de fundo */
+    border-radius: 8px; /* Raio da borda */
+    display: flex; /* Display flexível para alinhamento */
+    justify-content: space-between; /* Espaço entre os elementos */
+    flex-direction: column; /* Direção da coluna */
+    padding: 4px 8px; /* Espaçamento interno */
+    color: #b3b3b3; /* Cor do texto */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 14px; /* Tamanho da fonte */
+    margin-top: 10px; /* Margem superior */
+}
+
+/* Estilo do conteúdo da biblioteca */
+.library .library__content {
+    display: flex; /* Display flexível para alinhamento */
+    justify-content: space-between; /* Espaço entre os elementos */
+}
+
+/* Estilo do botão na biblioteca */
+.library .library__button {
+    display: flex; /* Display flexível para alinhamento */
+    margin-right: 10px; /* Margem à direita */
+    color: #b3b3b3; /* Cor do texto */
+    background-color: transparent; /* Cor de fundo transparente */
+    border: 0px; /* Borda */
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: 700; /* Peso da fonte */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remove sublinhado */
+    text-transform: none; /* Transformação de texto */
+    padding: 20px 10px; /* Espaçamento interno */
+}
+
+/* Estilo do ícone dentro do botão da biblioteca */
+.library .library__button .fa {
+    font-size: 20px; /* Tamanho do ícone */
+    font-weight: 300; /* Peso da fonte */
+    color: #b3b3b3; /* Cor do texto */
+    margin-right: 10px; /* Margem à direita */
+    padding-right: 8px; /* Preenchimento à direita */
+}
+
+/* Ajuste de margem superior conforme necessário */
+.library {
+    margin-top: 8px;
+}
+
+/* Estilo do ícone de adição */
+.library .library__content .fa-plus {
+    margin: 24px 10px; /* Margem */
+}
+
+/* Estilo da seção de lista de reprodução */
+.section-playlist {
+    display: flex; /* Display flexível para alinhamento */
+    align-items: flex-start; /* Alinhamento dos itens */
+    justify-content: space-between; /* Espaço entre os elementos */
+    gap: 20px; /* Espaço entre os elementos */
+    background-color: #242424; /* Cor de fundo */
+    color: #b3b3b3; /* Cor do texto */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 14px; /* Tamanho da fonte */
+    margin: 8px 0; /* Margem */
+    padding: 16px 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Raio da borda */
+}
+
+/* Estilo do conteúdo da seção de lista de reprodução */
+.section-playlist .section-playlist__content {
+    display: flex; /* Display flexível para alinhamento */
+    flex-direction: column; /* Direção da coluna */
+}
+
+/* Estilo do texto na seção de lista de reprodução */
+.section-playlist__content .text {
+    padding-bottom: 14px; /* Espaçamento inferior */
+    color: #FFF; /* Cor do texto */
+}
+
+/* Estilo do título na seção de lista de reprodução */
+.section-playlist__content .title {
+    font-weight: 700; /* Peso da fonte */
+}
+
+/* Estilo do subtítulo na seção de lista de reprodução */
+.section-playlist__content .subtitle {
+    font-weight: 500; /* Peso da fonte */
+    font-size: 12px; /* Tamanho da fonte */
+}
+
+/* Estilo do botão na seção de lista de reprodução */
+.section-playlist__content .section-playlist__button {
+    display: flex; /* Display flexível para alinhamento */
+    justify-content: center; /* Alinhamento dos itens */
+    background-color: #FFF; /* Cor de fundo */
+    color: #000; /* Cor do texto */
+    border-radius: 20px; /* Raio da borda */
+    font-size: 12px; /* Tamanho da fonte */
+    font-weight: 700; /* Peso da fonte */
+    text-decoration: none; /* Remove sublinhado */
+    text-transform: none; /* Transformação de texto */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 12px; /* Margem superior */
+    border: 0; /* Borda */
+    width: 113px; /* Largura */
+}
+
+/* Estilo do aviso de cookies na barra lateral */
+.sidebar .cookies {
+    margin: 25px 20px; /* Margem */
+}
+
+/* Estilo dos links dentro do aviso de cookies */
+.sidebar .cookies a {
+    color: #b3b3b3; /* Cor do texto */
+    font-weight: 500; /* Peso da fonte */
+    font-size: 10px; /* Tamanho da fonte */
+    text-decoration: none; /* Remove sublinhado */
+}
+
+/* Estilo dos links dentro do aviso de cookies quando passa o mouse por cima */
+.sidebar .cookies a:hover {
+    text-decoration: underline; /* Adiciona sublinhado */
+}
+
+/* Estilo do botão de seleção de idiomas */
+.languages .languages__button {
+    align-items: center; /* Alinhamento dos itens */
+    background-color: transparent; /* Cor de fundo transparente */
+    border: 1px solid #878787; /* Borda sólida */
+    color: #FFF; /* Cor do texto */
+    font-weight: bold; /* Peso da fonte */
+    cursor: pointer; /* Cursor */
+    width: 170px; /* Largura */
+    margin: 8px; /* Margem */
+    padding: 8px; /* Espaçamento interno */
+    border-radius: 20px; /* Raio da borda */
+}
+
+/* Estilo do rodapé premium */
+.footer-premium {
+    position: fixed; /* Define a posição fixa */
+    bottom: 0; /* Fixa o rodapé na parte inferior da janela */
+    left: 0; /* A partir da esquerda da janela */
+    right: 0; /* Até a direita da janela */
+    background: linear-gradient(to right, #af2896, #509bf5); /* Gradiente de fundo */
+    padding: 15px 40px; /* Espaçamento interno */
+    display: flex; /* Display flexível para alinhamento */
+    justify-content: space-between; /* Espaço entre os elementos */
+    height: 50px; /* Define a altura do rodapé */
+    margin-bottom: 5px;
+}
+/* Estilo do texto na área do rodapé premium */
+.footer-premium .div-texto {
+    flex-shrink: 0; /* Não permite encolher */
+}
+
+/* Estilo do título no rodapé premium */
+.footer-premium .footer__title {
+    color: #ffffff; /* Cor do texto */
+    font-weight: 600; /* Peso da fonte */
+    font-size: 14px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+/* Estilo do subtítulo no rodapé premium */
+.footer-premium .footer__subtitle {
+    color: #ffffff; /* Cor do texto */
+   
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: 500; /* Peso da fonte */
+    margin-bottom: 10px; /* Margem inferior */
+}
+
+/* Estilo do botão no rodapé premium */
+.footer-premium button {
+    background-color: #ffffff; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    padding: 20px 35px; /* Espaçamento interno */
+    border: 1px; /* Borda */
+    border-radius: 40px; /* Raio da borda */
+    cursor: pointer; /* Cursor */
+    flex-shrink: 0; /* Não permite encolher */
+    line-height: 1.2; /* Altura da linha */
+    margin-top: -5px; /* Margem superior */
+}

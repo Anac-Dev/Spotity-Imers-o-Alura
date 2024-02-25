@@ -1,0 +1,10 @@
+/* Definições de variáveis globais */
+
+:root {
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif; /* Define a fonte principal */
+
+    /* COLORS */
+    --bg-icon: #131313; /* Cor de fundo dos ícones */
+    --bg-arrow-color: rgba(0, 0, 0, 7); /* Cor das setas com transparência */
+}

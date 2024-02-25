@@ -1,0 +1,11 @@
+{
+    "name": "@ana-matos/imersao-alura-frontend",
+    "version": "1.0.0",
+    "description": "Descrição do seu projeto",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Ana-matos",
+    "license": "ISC"
+}

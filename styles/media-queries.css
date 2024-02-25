@@ -1,0 +1,6 @@
+@media screen and (max-width: 1015px) {
+  /* Define o estilo dos itens da lista de oferta quando a largura da tela for menor ou igual a 1015px */
+  .offer__list-item {
+      grid-template-columns: 1fr 1fr; /* Altera a disposição dos itens para duas colunas */
+  }
+}
